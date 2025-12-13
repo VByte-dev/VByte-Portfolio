@@ -1,9 +1,16 @@
 import React from "react";
 
+// Components
+import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
+import About from "../components/About";
+
 let App = () => {
   return (
     <>
-      <h1 className="text-2xl font-[inter]">hello world!</h1>
+      <section>
+        <Hero />
+      </section>
     </>
   );
 };
