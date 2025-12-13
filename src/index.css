@@ -63,7 +63,7 @@ body {
 /* Border Glow */
 .borderGlow {
   border: solid 2px #05df72;
-  animation: borderGlowAnimation 3s linear infinite;
+  animation: borderGlowAnimation 6s linear infinite;
 }
 
 /* Border animation */
