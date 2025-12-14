@@ -49,7 +49,7 @@ let About = () => {
         </div>
 
         {/* Value pillars presented as a bento-style grid */}
-        <div className="mt-20 md:mt-40 px-0 md:px-8 lg:px-20 xl:px-20">
+        <div className="mt-20 md:mt-30 lg:mt-40 px-0 md:px-8 lg:px-20 xl:px-20">
           <h1 className="font-[akira] text-base md:text-xl lg:text-xl">
             What I Focus On
           </h1>
