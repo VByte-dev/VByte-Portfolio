@@ -10,6 +10,7 @@ let App = () => {
     <>
       <section>
         <Hero />
+        <About />
       </section>
     </>
   );

@@ -5,14 +5,14 @@ import Navbar from "./Navbar";
 let Hero = () => {
   return (
     <>
-      <section className="relative bgGradient">
+      <section className="relative bgGradient fade-end ">
         {/* Sticky navigation anchored to the top */}
-        <div className="sticky top-15 md:top-20 flex justify-center">
+        <div className="sticky z-50 top-15 md:top-20 flex justify-center">
           <Navbar />
         </div>
 
         {/* Hero content wrapper */}
-        <div className="py-30 md:py-40 lg:py-50 px-8 lg:px-40 text-center">
+        <div className="py-30 md:py-40 lg:py-50 px-8 lg:px-40 text-center ">
           {/* Availability indicator */}
           <h5 className="borderGlow select-none cursor-pointer  inline-flex gap-3 justify-center items-center pl-2 pr-4 rounded-full font-[space] text-xs md:text-sm text-zinc-300 ">
             <div className="h-1.5 w-1.5 md:h-2 md:w-2 rounded-full bg-green-400 "></div>{" "}
@@ -61,8 +61,8 @@ let Hero = () => {
           </h3>
 
           {/* Scroll indicator */}
-          <div className="mt-30 motion-preset-oscillate-lg">
-            <i className="ri-arrow-down-long-line text-2xl border p-3 w-4 h-4 rounded-full hover:bg-white hover:text-black transition-all duration-400 text-white"></i>
+          <div className="mt-20 md:mt-30 motion-preset-oscillate-lg ">
+            <i className="ri-arrow-down-long-line text-lg md:text-xl lg:text-2xl border p-3 w-4 h-4 rounded-full hover:bg-white hover:text-black transition-all duration-400 text-white"></i>
           </div>
         </div>
       </section>
