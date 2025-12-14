@@ -38,7 +38,7 @@ let About = () => {
               Work
             </span>{" "}
           </h1>
-          <p className="font-[inter] text-md md:text-lg lg:text-xl mt-4 opacity-80 px-10 md:px-20 lg:px-30">
+          <p className="font-[inter] text-md md:text-lg lg:text-xl mt-4 opacity-80 px-1 md:px-20 lg:px-30">
             I build production-ready web products with a focus on clarity,
             performance, and real outcomes. My work isn’t about shipping
             features quickly - it’s about building solutions that are reliable,
