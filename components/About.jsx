@@ -62,7 +62,7 @@ let About = () => {
           ${(i + 1) % 3 === 0 ? "md:col-span-2" : "lg:col-span-1"}
         `}
               >
-                <h1 className="font-[bricolage] text-center md:text-left text-xl md:text-2xl">{v.headline}</h1>
+                <h1 className="font-[bricolage] text-center md:text-left text-lg md:text-2xl">{v.headline}</h1>
                 <p className="font-[space] text-center md:text-left text-zinc-300 mt-2">{v.content}</p>
               </div>
             ))}
