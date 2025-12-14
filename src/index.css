@@ -78,7 +78,7 @@ body {
 /* Border Glow */
 .borderGlow {
   border: solid 2px #05df72;
-  animation: borderGlowAnimation 3s linear infinite;
+  animation: borderGlowAnimation 6s linear infinite;
 }
 
 /* Border animation */
@@ -88,11 +88,11 @@ body {
     box-shadow: 2px #05df7274;
   }
   50% {
-    border: solid 1.5px #05df72;
+    border: solid 1px #05df72;
     box-shadow: 0px 2px 0px 0px #05df72;
   }
   75% {
-    border: solid 1.5px #05df72;
+    border: solid 1px #05df72;
     box-shadow: 0px 2px 0px 0px #05df72;
   }
   100% {
