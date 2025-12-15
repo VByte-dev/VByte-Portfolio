@@ -29,7 +29,7 @@ let About = () => {
 
   return (
     <>
-      <section className="h-screen relative px-8 lg:px-40">
+      <section className="relative px-8 lg:px-40">
         {/* Primary introduction outlining working philosophy */}
         <div className="text-center">
           <h1 className="font-[akira]  text-xl md:text-2xl lg:text-3xl">
