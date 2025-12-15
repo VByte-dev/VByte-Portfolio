@@ -113,7 +113,7 @@ let Services = () => {
           Not sure what you need?{" "}
           <a
             href=""
-            className="underline underline-offset-6 hover:text-green-600 active:text-green-600 transition-all"
+            className="underline underline-offset-6 text-green-500 hover:text-green-600 active:text-green-600 transition-all"
           >
             Let’s figure it out →
           </a>
