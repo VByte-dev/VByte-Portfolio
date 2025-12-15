@@ -1,6 +1,6 @@
 import React from "react";
 
-let Services = () => {
+let Service = () => {
   // Centralized service data for scalable, reusable service cards
   const servicesData = [
     {
@@ -63,19 +63,22 @@ let Services = () => {
               Services
             </span>{" "}
           </h1>
-          <p className="font-[akira] text-sm md:text-md lg:text-lg mt-4 opacity-80 px-10 md:px-20 lg:px-30">
+          <p className="font-[akira] text-sm md:text-md lg:text-lg mt-4 opacity-80 md:px-20 lg:px-30">
             Websites designed to build trust and drive action
           </p>
           <h5 className="font-[bricolage] text-xs md:text-sm lg:text-base mt-3 opacity-80 px-10 md:px-20 lg:px-30">
-            Simple, fast, and professional web solutions for modern businesses
+            Simple, fast, and professional web solutions for modern businesses.
           </h5>
         </div>
 
         {/* Service cards grid: primary conversion area */}
         <div className="mt-10 md:mt-20 px-0 md:px-8 lg:px-20 xl:px-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-          {servicesData.map((v, i) => {
+          {servicesData.map((v, i, a) => {
             return (
-              <div className="border-2 border-green-900 text-center bg-linear-to-tr from-green-950 to-green-900 mx-2 my-4 px-6 py-6 backdrop-blur-lg rounded-md overflow-hidden grid grid-cols-1 grid-rows-1">
+              <div
+                className="border-2 border-green-900 text-center bg-linear-to-tr from-green-950 to-green-900 mx-2 my-4 px-6 py-6 backdrop-blur-lg rounded-md overflow-hidden grid grid-cols-1 grid-rows-1"
+                key={i}
+              >
                 {/* Service title */}
                 <h1 className="font-[bricolage] text-lg md:text-2xl">
                   {v.title}
@@ -129,4 +132,4 @@ let Services = () => {
   );
 };
 
-export default Services;
+export default Service;

@@ -4,7 +4,9 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import About from "../components/About";
-import Services from "../components/Services"
+import Service from "../components/Service";
+import Project from "../components/Project";
+import Testimonial from "../components/Testimonial";
 
 let App = () => {
   return (
@@ -12,7 +14,9 @@ let App = () => {
       <section>
         <Hero />
         <About />
-        <Services />
+        <Service />
+        <Project />
+        <Testimonial/>
       </section>
     </>
   );
