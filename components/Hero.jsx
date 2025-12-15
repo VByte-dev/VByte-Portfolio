@@ -62,7 +62,7 @@ let Hero = () => {
 
           {/* Scroll indicator */}
           <div className="mt-20 md:mt-30 motion-preset-oscillate-lg ">
-            <i className="ri-arrow-down-long-line text-lg md:text-xl lg:text-2xl border p-3 w-4 h-4 rounded-full hover:bg-white hover:text-black transition-all duration-400 text-white"></i>
+            <i className="ri-arrow-down-long-line text-lg md:text-xl lg:text-2xl border p-3 w-4 h-4 rounded-full hover:bg-white active:bg-white active:text-black hover:text-black transition-all duration-400 text-white"></i>
           </div>
         </div>
       </section>

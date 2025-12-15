@@ -4,6 +4,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import About from "../components/About";
+import Services from "../components/Services"
 
 let App = () => {
   return (
@@ -11,6 +12,7 @@ let App = () => {
       <section>
         <Hero />
         <About />
+        <Services />
       </section>
     </>
   );

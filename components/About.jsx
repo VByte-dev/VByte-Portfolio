@@ -29,7 +29,7 @@ let About = () => {
 
   return (
     <>
-      <section className="h-screen relative px-8 lg:px-40">
+      <section className="relative px-8 lg:px-40">
         {/* Primary introduction outlining working philosophy */}
         <div className="text-center">
           <h1 className="font-[akira]  text-xl md:text-2xl lg:text-3xl">
@@ -38,7 +38,7 @@ let About = () => {
               Work
             </span>{" "}
           </h1>
-          <p className="font-[inter] text-md md:text-lg lg:text-xl mt-4 opacity-80 px-10 md:px-20 lg:px-30">
+          <p className="font-[inter] text-md md:text-lg lg:text-xl mt-4 opacity-80 px-1 md:px-20 lg:px-30">
             I build production-ready web products with a focus on clarity,
             performance, and real outcomes. My work isn’t about shipping
             features quickly - it’s about building solutions that are reliable,
@@ -49,7 +49,7 @@ let About = () => {
         </div>
 
         {/* Value pillars presented as a bento-style grid */}
-        <div className="mt-40 px-0 md:px-8 lg:px-20 xl:px-20">
+        <div className="mt-20 md:mt-30 lg:mt-40 px-0 md:px-8 lg:px-20 xl:px-20">
           <h1 className="font-[akira] text-base md:text-xl lg:text-xl">
             What I Focus On
           </h1>
@@ -62,8 +62,12 @@ let About = () => {
           ${(i + 1) % 3 === 0 ? "md:col-span-2" : "lg:col-span-1"}
         `}
               >
-                <h1 className="font-[bricolage] text-2xl">{v.headline}</h1>
-                <p className="font-[space] text-zinc-300 mt-2">{v.content}</p>
+                <h1 className="font-[bricolage] text-center md:text-left text-lg md:text-2xl">
+                  {v.headline}
+                </h1>
+                <p className="font-[space] text-center md:text-left text-zinc-300 mt-2">
+                  {v.content}
+                </p>
               </div>
             ))}
           </div>
