@@ -100,3 +100,7 @@ body {
     box-shadow: 2px #05df7274;
   }
 }
+
+a{
+  cursor: pointer;
+}

@@ -28,8 +28,8 @@ let Testimonial = () => {
       date: "12-25-2025",
     },
     {
-      name: "Thileepan",
-      role: "Freelance Consultant",
+      name: "Sukumar",
+      role: "Business Owner",
       feedback:
         "Simple process, honest pricing, and quality work. Would definitely recommend.",
       date: "5-9-2025",

@@ -72,7 +72,7 @@ let Service = () => {
         </div>
 
         {/* Service cards grid: primary conversion area */}
-        <div className="mt-10 md:mt-20 px-0 md:px-8 lg:px-20 xl:px-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-10 md:mt-20 px-0 md:px-8 lg:px-20 xl:px-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 select-none">
           {servicesData.map((v, i, a) => {
             return (
               <div

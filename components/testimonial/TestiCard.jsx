@@ -6,17 +6,19 @@ let TestiCard = ({ data }) => {
     <div className="p-5 rounded-lg mx-4 border border-white/10 bg-white/5 backdrop-blur shadow hover:shadow-lg transition-all duration-200 w-72 shrink-0">
       {/* Card header: client identity */}
       <div className="flex flex-col gap-1">
-        <p className="font-medium">{testimonial.name}</p>
-        <span className="text-xs text-white/60">{testimonial.role}</span>
+        <p className="font-medium font-[bricolage]">{testimonial.name}</p>
+        <span className="text-xs text-white/60 font-[fk]">
+          {testimonial.role}
+        </span>
       </div>
 
       {/* Client feedback content */}
-      <p className="text-sm py-4 text-white/80 leading-relaxed">
+      <p className="text-sm py-4 text-white/80 leading-relaxed font-[space]">
         “{testimonial.feedback}”
       </p>
 
       {/* Card footer: context and timestamp */}
-      <div className="flex items-center justify-between text-white/50 text-xs">
+      <div className="flex items-center justify-between font-[fk] text-white/50 text-xs">
         <span>Client feedback</span>
         <p>{testimonial.date}</p>
       </div>
