@@ -60,7 +60,7 @@ let About = () => {
         <div className="mt-20 md:mt-30 lg:mt-40 px-0 md:px-8 lg:px-20 xl:px-20">
           <h1
             className="font-[akira] text-base md:text-xl lg:text-xl"
-            data-aos="fade-up"
+            data-aos="fade-right"
             data-aos-delay="100"
           >
             What I Focus On
