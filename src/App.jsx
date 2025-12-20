@@ -1,4 +1,7 @@
 import React from "react";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 // Components
 import Navbar from "../components/Navbar";
@@ -10,6 +13,14 @@ import Testimonial from "../components/Testimonial";
 import Footer from "../components/Footer";
 
 let App = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      easing: "ease-out-cubic",
+      once: true,
+      offset: 120,
+    });
+  }, []);
   return (
     <>
       <section className="selection:bg-green-800 selection:text-white">
@@ -17,7 +28,7 @@ let App = () => {
         <About />
         <Service />
         <Project />
-        <Testimonial/>
+        <Testimonial />
         <Footer />
       </section>
     </>

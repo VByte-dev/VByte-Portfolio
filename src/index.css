@@ -1,6 +1,9 @@
 @import "tailwindcss";
 @plugin "tailwindcss-motion";
 
+*{
+  scroll-behavior: smooth;
+}
 html,
 body {
   background: black;

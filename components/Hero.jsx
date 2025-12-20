@@ -12,7 +12,10 @@ let Hero = () => {
         </div>
 
         {/* Hero content wrapper */}
-        <div className="py-30 md:py-40 lg:py-50 px-8 lg:px-40 text-center ">
+        <div
+          className="py-30 md:py-40 lg:py-50 px-8 lg:px-40 text-center"
+          data-aos="fade"
+        >
           {/* Availability indicator */}
           <h5 className="borderGlow select-none cursor-pointer  inline-flex gap-3 justify-center items-center pl-2 pr-4 rounded-full font-[space] text-xs md:text-sm text-zinc-300 ">
             <div className="h-1.5 w-1.5 md:h-2 md:w-2 rounded-full bg-green-400 "></div>{" "}
@@ -20,7 +23,11 @@ let Hero = () => {
           </h5>
 
           {/* Primary hero headline */}
-          <h1 className="font-[akira] text-xl mt-10 md:text-2xl lg:text-3xl md:px-20">
+          <h1
+            className="font-[akira] text-xl mt-10 md:text-2xl lg:text-3xl md:px-20 "
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
             I build modern{" "}
             <span className="bg-linear-to-br from-green-500 to-green-800 text-transparent bg-clip-text">
               websites
@@ -29,7 +36,11 @@ let Hero = () => {
           </h1>
 
           {/* Supporting sub-headline */}
-          <h2 className="font-[bricolage] mt-6 md:mt-8 text-sm md:text-base lg:text-lg opacity-80 leading-relaxed">
+          <h2
+            className="font-[bricolage] mt-6 md:mt-8 text-sm md:text-base lg:text-lg opacity-80 leading-relaxed"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
             Building production-ready web products. Open to{" "}
             <span className="underline underline-offset-6 decoration-white/40">
               internships
@@ -42,16 +53,24 @@ let Hero = () => {
           </h2>
 
           {/* Primary and secondary call-to-action buttons */}
-          <div className="mt-14 md:mt-20 block md:flex gap-4 justify-center">
+          <div
+            className="mt-14 md:mt-20 block md:flex gap-4 justify-center"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
             <div>
-              <button className="whitespace-nowrap truncate my-2 md:my-0 bg-linear-to-br w-40 from-green-800 via-green-600 to-green-800 border-2 border-green-600 font-[space] text-xs md:text-base rounded px-4 py-2 active:from-green-600 active:via-green-800 active:to-green-600 hover:from-green-600 hover:via-green-800 hover:to-green-600 transition-colors duration-150">
-                Work With Me
-              </button>
+              <a href="" target="_blank">
+                <button className="whitespace-nowrap truncate my-2 md:my-0 bg-linear-to-br w-40 from-green-800 via-green-600 to-green-800 border-2 border-green-600 font-[space] text-xs md:text-base rounded px-4 py-2 active:from-green-600 active:via-green-800 active:to-green-600 hover:from-green-600 hover:via-green-800 hover:to-green-600 transition-colors duration-150">
+                  Work With Me
+                </button>
+              </a>
             </div>
             <div>
-              <button className="whitespace-nowrap truncate my-2 md:my-0 bg-linear-to-br w-40 from-green-800 via-green-600 to-green-800 border-2 border-green-600 font-[space] text-xs md:text-base rounded px-4 py-2 active:from-green-600 active:via-green-800 active:to-green-600 hover:from-green-600 hover:via-green-800 hover:to-green-600 transition-colors duration-150">
-                View Work
-              </button>
+              <a href="https://linktr.ee/vbyte.products" target="_blank">
+                <button className="whitespace-nowrap truncate my-2 md:my-0 bg-linear-to-br w-40 from-green-800 via-green-600 to-green-800 border-2 border-green-600 font-[space] text-xs md:text-base rounded px-4 py-2 active:from-green-600 active:via-green-800 active:to-green-600 hover:from-green-600 hover:via-green-800 hover:to-green-600 transition-colors duration-150">
+                  View Work
+                </button>
+              </a>
             </div>
           </div>
 

@@ -55,18 +55,30 @@ let Service = () => {
 
   return (
     <>
-      <section className="my-0 px-8 lg:px-40">
+      <section className="my-0 px-8 lg:px-40" data-aos="fade" id="service">
         {/* Services section header: context-setting and value positioning */}
         <div className="text-center">
-          <h1 className="font-[akira]  text-xl md:text-2xl lg:text-3xl">
+          <h1
+            className="font-[akira]  text-xl md:text-2xl lg:text-3xl"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
             <span className="bg-linear-to-br from-green-500 to-green-800 text-transparent bg-clip-text">
               Services
             </span>{" "}
           </h1>
-          <p className="font-[akira] text-sm md:text-md lg:text-lg mt-4 opacity-80 md:px-20 lg:px-30">
+          <p
+            className="font-[akira] text-sm md:text-md lg:text-lg mt-4 opacity-80 md:px-20 lg:px-30"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
             Websites designed to build trust and drive action
           </p>
-          <h5 className="font-[bricolage] text-xs md:text-sm lg:text-base mt-3 opacity-80 px-10 md:px-20 lg:px-30">
+          <h5
+            className="font-[bricolage] text-xs md:text-sm lg:text-base mt-3 opacity-80 px-10 md:px-20 lg:px-30"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
             Simple, fast, and professional web solutions for modern businesses.
           </h5>
         </div>
@@ -76,6 +88,8 @@ let Service = () => {
           {servicesData.map((v, i, a) => {
             return (
               <div
+                data-aos="fade-up"
+                data-aos-delay="300"
                 className="border-2 border-green-900 text-center bg-linear-to-tr from-green-950 to-green-900 mx-2 my-4 px-6 py-6 backdrop-blur-lg rounded-md overflow-hidden grid grid-cols-1 grid-rows-1"
                 key={i}
               >

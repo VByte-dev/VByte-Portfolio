@@ -18,8 +18,8 @@ let TestiCard = ({ data }) => {
       </p>
 
       {/* Card footer: context and timestamp */}
-      <div className="flex items-center justify-between font-[fk] text-white/50 text-xs">
-        <span>Client feedback</span>
+      <div className="flex items-center justify-between font-[space] text-white/50 text-xs">
+        <span></span>
         <p>{testimonial.date}</p>
       </div>
     </div>

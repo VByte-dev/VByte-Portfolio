@@ -39,11 +39,15 @@ let Testimonial = () => {
   return (
     <>
       {/* Testimonial section wrapper */}
-      <section className="my-0">
+      <section className="my-0" data-aos="fade">
         {/* Section heading and context copy */}
         <div className="text-left px-8 lg:px-40">
           {/* Section title emphasizing client validation */}
-          <h1 className="font-[akira] text-xl md:text-2xl lg:text-3xl">
+          <h1
+            className="font-[akira] text-xl md:text-2xl lg:text-3xl"
+            data-aos="fade-right"
+            data-aos-delay="100"
+          >
             Words from
             <span className="bg-linear-to-br from-green-500 to-green-800 text-transparent bg-clip-text">
               {" "}
@@ -52,14 +56,18 @@ let Testimonial = () => {
           </h1>
 
           {/* Supporting description reinforcing credibility */}
-          <h3 className="font-[bricolage] text-md md:text-lg lg:text-xl mt-4 opacity-80 w-fit md:w-2/3">
+          <h3
+            className="font-[bricolage] text-md md:text-lg lg:text-xl mt-4 opacity-80 w-fit md:w-2/3"
+            data-aos="fade-right"
+            data-aos-delay="300"
+          >
             Real-world projects built for clients and personal products. Each
             one focuses on clarity, performance, and business outcomes.
           </h3>
         </div>
 
         {/* Testimonial cards container */}
-        <div className="mt-8 md:mt-16">
+        <div className="mt-8 md:mt-16" data-aos="fade" data-aos-delay="300">
           {/* Pass testimonial data to reusable card component */}
           <TestiCard data={cardsData} />
         </div>
