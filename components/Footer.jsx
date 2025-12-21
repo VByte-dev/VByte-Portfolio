@@ -19,8 +19,8 @@ let Footer = () => {
         <div className="flex flex-col lg:flex-row justify-between py-16 lg:py-20 px-6 md:px-12 lg:px-20 gap-12 lg:gap-0 text-left lg:text-left">
           {/*Profile block*/}
           <div>
-            <h2 className="font-[space] opacity-100 mt-3">Hi, I’m Vedhesh</h2>
-            <h3 className="font-[space] opacity-100">
+            <h2 className="font-[fk] opacity-100 mt-3">Hi, I’m Vedhesh</h2>
+            <h3 className="font-[fk] opacity-100">
               Building reliable, high-converting web solutions for businesses
               and professionals.
             </h3>
@@ -61,7 +61,9 @@ let Footer = () => {
 
           {/* Navigation block*/}
           <div className="text-right lg:text-left">
-            <h1 className="font-[inter] text-base lg:text-lg">Navigation</h1>
+            <h1 className="font-[bricolage] text-base lg:text-lg">
+              Navigation
+            </h1>
             <div className="font-[space] mt-3 opacity-80 space-y-1">
               <div>
                 <a
@@ -92,7 +94,7 @@ let Footer = () => {
 
           {/* Presence block*/}
           <div className="text-left w-30">
-            <h1 className="font-[inter] text-base lg:text-lg">Presence</h1>
+            <h1 className="font-[bricolage] text-base lg:text-lg">Presence</h1>
             <div className="font-[space] mt-3 opacity-80 space-y-2">
               {/* Individual social links with subtle motion feedback */}
               <div>
@@ -151,15 +153,15 @@ let Footer = () => {
         </div>
 
         {/* Part-B: Brand reinforcement strip*/}
-        <div className="mt-24 md:mt-40 lg:mt-60 flex flex-col lg:flex-row justify-between items-center lg:items-end p-6 md:p-10 gap-6 text-center lg:text-left">
+        <div className="mt-24 md:mt-40 lg:mt-60 flex flex-col lg:flex-row justify-between items-baseline lg:items-end p-6 md:p-10 gap-6 text-end lg:text-left">
           {/* Dynamic copyright year */}
-          <h2 className="font-[bricolage] text-xs md:text-base order-1 lg:order-0">
+          <h2 className="font-[space] text-xs md:text-base order-1 lg:order-0 ">
             <span className="font-[inter]"> ©</span> {new Date().getFullYear()}{" "}
             - All Rights Reserved
           </h2>
 
           {/* Animated brand identity*/}
-          <div>
+          <div className="">
             <TextType
               className="font-[akira] text-5xl md:text-7xl lg:text-9xl overflow-hidden"
               text={["VByte", "Code", "Craft", "Conquer"]}
@@ -169,11 +171,6 @@ let Footer = () => {
               cursorCharacter=""
             />
           </div>
-
-          {/* Creator credit */}
-          <h2 className="font-[bricolage] text-xs md:text-base order-2">
-            Crafted by VByte
-          </h2>
         </div>
       </section>
     </>

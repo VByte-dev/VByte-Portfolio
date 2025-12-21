@@ -89,7 +89,7 @@ let Service = () => {
               <div
                 data-aos="fade-up"
                 data-aos-delay="300"
-                className="border-2 border-green-900 text-center bg-linear-to-tr from-green-950 to-green-900 mx-2 my-4 px-6 py-6 backdrop-blur-lg rounded-md overflow-hidden grid grid-cols-1 grid-rows-1"
+                className="border-2 border-green-900 text-center bg-linear-to-tr from-green-950 to-green-900 mx-2 my-4 px-6 py-6 backdrop-blur-lg rounded-md overflow-hidden grid"
                 key={i}
               >
                 {/* Service title */}
@@ -98,12 +98,12 @@ let Service = () => {
                 </h1>
 
                 {/* Trust-focused service description */}
-                <h2 className="text-sm md:text-base lg:text-lg mt-6 font-[inter] text-zinc-300">
+                <h2 className="text-sm md:text-base mt-6 font-[inter] text-zinc-300">
                   {v.subheadline}
                 </h2>
 
                 {/* Key value points highlighting outcomes */}
-                <div className="text-left font-[space] text-zinc-300 text-sm mt-6">
+                <div className="text-left font-[space] text-zinc-300 text-sm md:text-base bg-green-900 p-3 rounded-md mt-6">
                   <h5 className="my-2">• {v.points[0]}</h5>
                   <h5 className="my-3">• {v.points[1]}</h5>
                   <h5 className="my-2">• {v.points[2]}</h5>

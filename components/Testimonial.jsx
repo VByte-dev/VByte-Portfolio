@@ -61,8 +61,7 @@ let Testimonial = () => {
             data-aos="fade-right"
             data-aos-delay="300"
           >
-            Real-world projects built for clients and personal products. Each
-            one focuses on clarity, performance, and business outcomes.
+           Genuine feedback from people who trusted me with their ideas and projects, reflecting real collaboration, clear communication, and work delivered with care and attention to detail.
           </h3>
         </div>
 
