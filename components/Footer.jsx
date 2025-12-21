@@ -13,22 +13,23 @@ let Footer = () => {
         data-aos="slide-up"
         data-aos-delay="100"
       >
-        <hr className=" text-white/50" />
+        <hr className="h-0.5 border-0 bg-gradient-to-r from-transparent via-white/50 to-transparent" />
+
         {/* Part-A: Primary footer content*/}
         <div className="flex flex-col lg:flex-row justify-between py-16 lg:py-20 px-6 md:px-12 lg:px-20 gap-12 lg:gap-0 text-left lg:text-left">
           {/*Profile block*/}
           <div>
-            <h1 className="font-[inter] text-base lg:text-lg">Profile</h1>
-            <h2 className="font-[space] opacity-90 mt-3">Vedhesh</h2>
-            <h3 className="font-[space] opacity-90">
-              Building reliable web solutions for businesses.
+            <h2 className="font-[space] opacity-100 mt-3">Hi, I’m Vedhesh</h2>
+            <h3 className="font-[space] opacity-100">
+              Building reliable, high-converting web solutions for businesses
+              and professionals.
             </h3>
 
             {/* 
               Contact actions
 
             */}
-            <div className="mt-8 text-center">
+            <div className="mt-8 text-center text-sm lg:text-base">
               <a href="mailto:vbyte.02@gmail.com">
                 <div className="mt-2">
                   <button className="font-[space] bg-linear-to-br from-green-900 to-green-800 hover:opacity-90 active:opacity-90 mt-2 w-full rounded py-2 text-white">
@@ -41,7 +42,7 @@ let Footer = () => {
                 Primary CTA button
 
               */}
-              <a href="https://linktr.ee/vbyte.products" target="_blank">
+              <a href="https://app.youform.com/forms/7eqd21qr" target="_blank">
                 <div className="">
                   <button className="font-[space] bg-linear-to-br from-green-900 to-green-800 hover:opacity-90 active:opacity-90 mt-2 w-full rounded py-2 text-white">
                     Work With Me

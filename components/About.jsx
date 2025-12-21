@@ -2,30 +2,34 @@ import React from "react";
 
 let About = () => {
   // Bento grid content defining core value pillars
-  const bentoData = [
-    {
-      headline: "Fast Development",
-      content:
-        "Ship production-ready features quickly with a clean, scalable setup.",
-    },
-    {
-      headline: "Modern UI",
-      content:
-        "Minimal, motion-first interfaces that feel premium and intentional.",
-    },
-    {
-      headline: "Performance Focused",
-      content: "Optimized rendering, smooth interactions, and fast load times.",
-    },
-    {
-      headline: "Conversion Driven",
-      content: "Every section is designed to guide users toward action.",
-    },
-    {
-      headline: "Scalable Code",
-      content: "Built to grow without becoming a maintenance nightmare.",
-    },
-  ];
+const bentoData = [
+  {
+    headline: "Rapid Delivery",
+    content:
+      "Get production-ready websites and features fast, without compromising quality.",
+  },
+  {
+    headline: "Professional Design",
+    content:
+      "Clean, modern interfaces with motion and minimalism to build trust instantly.",
+  },
+  {
+    headline: "High Performance",
+   content:
+  "Lightning-fast loading, seamless interactions, and optimized performance that keep users engaged, reduce bounce rates, and boost conversions."
+,
+  },
+  {
+    headline: "Conversion Optimized",
+    content:
+      "Layouts and content crafted to turn visitors into clients or leads effectively.",
+  },
+  {
+    headline: "Scalable & Maintainable",
+    content:
+      "Code structured to grow with your business, easy to update, and bug-resistant.",
+  },
+];
 
   return (
     <>
@@ -88,7 +92,11 @@ let About = () => {
         </div>
 
         {/* Subtle credibility statement reinforcing real-world experience */}
-        <h4 className="text-center mt-20 text-xs md:text-sm lg:text-base font-[inter] text-white/50 pb-40">
+        <h4
+          className="text-center mt-20 text-xs md:text-sm lg:text-base font-[inter] text-white/50 pb-40"
+          data-aos="fade"
+          data-aos-delay="300"
+        >
           ❝I’ve worked on real client projects and continue to ship and refine
           production-ready tools through hands-on building❞
         </h4>

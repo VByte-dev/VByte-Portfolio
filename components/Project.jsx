@@ -33,7 +33,7 @@ let Project = () => {
         {/* Primary CTA directing users to recent or featured work */}
         <div
           className="flex justify-center mt-20"
-          data-aos="fade"
+          data-aos="fade-up"
           data-aos-delay="300"
         >
           <a
@@ -52,7 +52,11 @@ let Project = () => {
         </div>
 
         {/* Trust reinforcement line to subtly validate experience */}
-        <h4 className="text-center mt-20 text-xs md:text-sm lg:text-base font-[inter] text-white/50 pb-40">
+        <h4
+          className="text-center mt-20 text-xs md:text-sm lg:text-base font-[inter] text-white/50 pb-40"
+          data-aos="fade"
+          data-aos-delay="300"
+        >
           ❝Client projects and tools built to solve real problems❞
         </h4>
       </section>

@@ -17,9 +17,13 @@ let Hero = () => {
           data-aos="fade"
         >
           {/* Availability indicator */}
-          <h5 className="borderGlow select-none cursor-pointer  inline-flex gap-3 justify-center items-center pl-2 pr-4 rounded-full font-[space] text-xs md:text-sm text-zinc-300 ">
+          <h5
+            className="borderGlow select-none cursor-pointer  inline-flex gap-3 justify-center items-center pl-2 pr-4 rounded-full font-[space] text-xs md:text-sm text-zinc-300 "
+            data-aos="fade"
+            data-aos-delay="300"
+          >
             <div className="h-1.5 w-1.5 md:h-2 md:w-2 rounded-full bg-green-400 "></div>{" "}
-            Open for Work
+            Open to Opportunities
           </h5>
 
           {/* Primary hero headline */}
@@ -59,7 +63,7 @@ let Hero = () => {
             data-aos-delay="300"
           >
             <div>
-              <a href="" target="_blank">
+              <a href="https://app.youform.com/forms/7eqd21qr" target="_blank">
                 <button className="whitespace-nowrap truncate my-2 md:my-0 bg-linear-to-br w-40 from-green-800 via-green-600 to-green-800 border-2 border-green-600 font-[space] text-xs md:text-base rounded px-4 py-2 active:from-green-600 active:via-green-800 active:to-green-600 hover:from-green-600 hover:via-green-800 hover:to-green-600 transition-colors duration-150">
                   Work With Me
                 </button>
@@ -75,12 +79,20 @@ let Hero = () => {
           </div>
 
           {/* Trust signal / credibility micro-copy */}
-          <h3 className="mt-12 md:mt-20 font-[space] text-xs md:text-sm opacity-70">
+          <h3
+            className="mt-12 md:mt-20 font-[space] text-xs md:text-sm opacity-70"
+            data-aos="fade"
+            data-aos-delay="300"
+          >
             ✽ Trusted by clients · Shipping real world projects
           </h3>
 
           {/* Scroll indicator */}
-          <div className="mt-20 md:mt-30 motion-preset-oscillate-lg ">
+          <div
+            className="mt-20 md:mt-30 motion-preset-oscillate-lg "
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
             <i className="ri-arrow-down-long-line text-lg md:text-xl lg:text-2xl border p-3 w-4 h-4 rounded-full hover:bg-white active:bg-white active:text-black hover:text-black transition-all duration-400 text-white"></i>
           </div>
         </div>

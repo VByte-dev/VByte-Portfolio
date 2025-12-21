@@ -3,7 +3,7 @@ import React from "react";
 let Navbar = () => {
   return (
     <>
-      <section className="w-5/6 lg:w-2/5 lg:hover:w-4/6 transition-all duration-200">
+      <section className="w-5/6 lg:w-2/5 lg:hover:w-4/6 transition-all duration-200 select-none">
         <div className="backdrop-blur-lg bg-white/10 border border-white/20 flex justify-between items-center rounded-full px-6 md:px-8 py-3 ">
           <h1 className="font-[bricolage] text-lg md:text-xl">VByte</h1>
           <div>

@@ -12,8 +12,8 @@ let Service = () => {
         "Trust-focused layout with strong content flow",
         "Mobile-first, fast, and SEO-ready setup",
       ],
-      price: "₹15,000",
-      offeredPrice: "₹9,000",
+      price: "₹12,999", // Anchor price
+      offeredPrice: "₹5,999", // Strong psychological discount
     },
     {
       title: "Landing Page",
@@ -24,8 +24,8 @@ let Service = () => {
         "Strong messaging with clear call-to-action",
         "Optimized for performance and campaign use",
       ],
-      price: "₹8,000",
-      offeredPrice: "₹5,000",
+      price: "₹6,999", // Anchor price
+      offeredPrice: "₹3,499", // Very affordable for small campaigns
     },
     {
       title: "Portfolio Website",
@@ -36,8 +36,8 @@ let Service = () => {
         "Strong personal positioning and credibility",
         "Recruiter and client-friendly layout",
       ],
-      price: "₹6,000",
-      offeredPrice: "₹3,500",
+      price: "₹4,999", // Anchor price
+      offeredPrice: "₹1,999", // Extremely attractive for students/freelancers
     },
     {
       title: "Custom Website",
@@ -48,8 +48,7 @@ let Service = () => {
         "Flexible structure built to scale",
         "Designed around unique business needs",
       ],
-      price: "Custom",
-      offeredPrice: "Custom pricing",
+      offeredPrice: "Custom Quote", // Flexible, premium feel
     },
   ];
 
@@ -113,7 +112,8 @@ let Service = () => {
                 {/* Pricing anchor with discounted starting point */}
                 <div className="mt-8">
                   <a
-                    href=""
+                    href="https://app.youform.com/forms/7eqd21qr"
+                    target="_blank"
                     className="whitespace-nowrap truncate bg-linear-to-br w-40 from-green-800 via-green-600 to-green-800 border-2 border-green-600 font-[space] text-xs md:text-base rounded px-4 py-2 active:from-green-600 active:via-green-800 active:to-green-600 hover:from-green-600 hover:via-green-800 hover:to-green-600 transition-colors duration-150"
                   >
                     <span className="line-through opacity-80">{v.price}</span>
@@ -126,10 +126,15 @@ let Service = () => {
         </div>
 
         {/* Secondary CTA for users unsure about scope or service fit */}
-        <h4 className="text-center mt-10 md:mt-20 text-xs md:text-sm lg:text-base font-[inter] text-white/50 pb-20">
+        <h4
+          className="text-center mt-10 md:mt-20 text-xs md:text-sm lg:text-base font-[inter] text-white/50 pb-20"
+          data-aos="fade"
+          data-aos-delay="300"
+        >
           Not sure what you need?{" "}
           <a
-            href=""
+            href="https://app.youform.com/forms/7eqd21qr"
+            target="_blank"
             className="underline underline-offset-6 text-green-500 hover:text-green-600 active:text-green-600 transition-all"
           >
             Let’s figure it out →
@@ -137,7 +142,11 @@ let Service = () => {
         </h4>
 
         {/* Trust reinforcement: pricing transparency and working process */}
-        <h4 className="text-center mt-0 text-xs md:text-sm lg:text-base font-[inter] text-white/50 pb-40">
+        <h4
+          className="text-center mt-0 text-xs md:text-sm lg:text-base font-[inter] text-white/50 pb-40"
+          data-aos="fade"
+          data-aos-delay="300"
+        >
           ❝Clear communication, transparent pricing, and no hidden costs. A
           straightforward process from start to finish❞
         </h4>
