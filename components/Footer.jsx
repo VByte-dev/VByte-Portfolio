@@ -9,7 +9,7 @@ let Footer = () => {
       {/* Footer wrapper*/}
       <section
         id="contact"
-        className="mt-40 md:mt-60 lg:mt-80 bg-linear-to-b from-black to-zinc-900"
+        className="mt-40 md:mt-60 lg:mt-80 bg-linear-to-b from-black to-zinc-800"
         data-aos="slide-up"
         data-aos-delay="100"
       >
@@ -153,7 +153,7 @@ let Footer = () => {
         </div>
 
         {/* Part-B: Brand reinforcement strip*/}
-        <div className="mt-24 md:mt-40 lg:mt-60 flex flex-col lg:flex-row justify-between items-baseline lg:items-end p-6 md:p-10 gap-6 text-end lg:text-left">
+        <div className="mt-24 md:mt-40 lg:mt-60 flex flex-col lg:flex-row justify-between items-center lg:items-end lg:items-end p-6 md:p-10 gap-6 text-end lg:text-left">
           {/* Dynamic copyright year */}
           <h2 className="font-[space] text-xs md:text-base order-1 lg:order-0 ">
             <span className="font-[inter]"> ©</span> {new Date().getFullYear()}{" "}
