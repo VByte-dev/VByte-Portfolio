@@ -153,7 +153,7 @@ let Footer = () => {
         </div>
 
         {/* Part-B: Brand reinforcement strip*/}
-        <div className="mt-24 md:mt-40 lg:mt-60 flex flex-col lg:flex-row justify-between items-center lg:items-end lg:items-end p-6 md:p-10 gap-6 text-end lg:text-left">
+        <div className="mt-24 md:mt-40 lg:mt-60 flex flex-col lg:flex-row justify-between items-center lg:items-end lg:items-end p-6 md:p-10 gap-6 text-end lg:text-left h-50">
           {/* Dynamic copyright year */}
           <h2 className="font-[space] text-xs md:text-base order-1 lg:order-0 ">
             <span className="font-[inter]"> ©</span> {new Date().getFullYear()}{" "}
