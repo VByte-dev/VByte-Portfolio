@@ -164,7 +164,7 @@ let Footer = () => {
           <div className="">
             <TextType
               className="font-[akira] text-5xl md:text-7xl lg:text-9xl overflow-hidden"
-              text={["VByte", "Build", "Learn", "Impact"]}
+              text={["VByte", "Craft", "Build", "Impact"]}
               typingSpeed={75}
               pauseDuration={1500}
               showCursor={true}
