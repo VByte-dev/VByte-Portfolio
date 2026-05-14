@@ -37,14 +37,14 @@ let Project = () => {
           data-aos-delay="300"
         >
           <a
-            href="https://linktr.ee/vbyte.products"
+            href="https://linktr.ee/Client_Works"
             target="_blank"
             className="whitespace-nowrap truncate bg-linear-to-br from-green-800 via-green-600 to-green-800 border-2 border-green-600 font-[space] text-xs md:text-base rounded px-4 py-2
                        active:from-green-600 active:via-green-800 active:to-green-600
                        hover:from-green-600 hover:via-green-800 hover:to-green-600
                        duration-150 flex justify-center gap-3 hover:gap-6 active:gap-6 transition-all"
           >
-            Recent Work
+            Tailored Solutions
             <span>
               <i className="ri-arrow-right-long-line"></i>
             </span>
