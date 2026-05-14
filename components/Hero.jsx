@@ -70,7 +70,7 @@ let Hero = () => {
               </a>
             </div>
             <div>
-              <a href="https://linktr.ee/vbyte.products" target="_blank">
+              <a href="https://linktr.ee/Client_Works" target="_blank">
                 <button className="whitespace-nowrap truncate my-2 md:my-0 bg-linear-to-br w-40 from-green-800 via-green-600 to-green-800 border-2 border-green-600 font-[space] text-xs md:text-base rounded px-4 py-2 active:from-green-600 active:via-green-800 active:to-green-600 hover:from-green-600 hover:via-green-800 hover:to-green-600 transition-colors duration-150">
                   View Work
                 </button>
